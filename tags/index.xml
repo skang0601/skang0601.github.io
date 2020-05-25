@@ -6,9 +6,46 @@
     <description>Recent content in Tags on I don&#39;t really know what I&#39;m doing lol</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 24 May 2020 20:46:49 -0500</lastBuildDate>
     
 	<atom:link href="https://www.skang.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>linux</title>
+      <link>https://www.skang.dev/tags/linux/</link>
+      <pubDate>Sun, 24 May 2020 20:46:49 -0500</pubDate>
+      
+      <guid>https://www.skang.dev/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>https://www.skang.dev/tags/personal/</link>
+      <pubDate>Sun, 24 May 2020 20:46:49 -0500</pubDate>
+      
+      <guid>https://www.skang.dev/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://www.skang.dev/tags/technical/</link>
+      <pubDate>Sun, 24 May 2020 20:46:49 -0500</pubDate>
+      
+      <guid>https://www.skang.dev/tags/technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meta</title>
+      <link>https://www.skang.dev/tags/meta/</link>
+      <pubDate>Sun, 24 May 2020 20:00:34 -0500</pubDate>
+      
+      <guid>https://www.skang.dev/tags/meta/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
