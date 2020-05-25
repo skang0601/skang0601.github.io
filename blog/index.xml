@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on I don&#39;t really know what I&#39;m doing lol</title>
+    <link>https://skang.dev/blog/</link>
+    <description>Recent content in Blogs on I don&#39;t really know what I&#39;m doing lol</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 May 2020 20:00:34 -0500</lastBuildDate>
+    
+	<atom:link href="https://skang.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First blog post</title>
+      <link>https://skang.dev/blog/first/</link>
+      <pubDate>Sun, 24 May 2020 20:00:34 -0500</pubDate>
+      
+      <guid>https://skang.dev/blog/first/</guid>
+      <description>This is my blog, I hope to post some useful information for other folks hacking at various things here and work on my writing skills.
+&amp;hellip;There&amp;rsquo;s not much here yet, but look forward to some more content!</description>
+    </item>
+    
+  </channel>
+</rss>
