@@ -18,9 +18,10 @@
       
       <guid>https://www.skang.dev/blog/lg-5k/</guid>
       <description>This is yet another post about attempting to get the LG UltraFine 5k working on Linux/Windows.
-TLDR: It works at a 4k resolution over USB-c from my gpu. USB peripherals are not detected on Linux over Thunderbolt.
+TLDR: It works at a 4k resolution on my desktop and 5k from my Macbook Pro.
 Why are you doing this? The LG UltraFine 5k is a really gorgeous monitor that&amp;rsquo;s (unfortunately) a unique product in the market right now.
-There seems to be no other product with the following feature sets:</description>
+There seems to be no other product with the following feature sets:
+ A glossy panel 5k resolution Good color reproduction High DPI A single cable docking solution through Thunderbolt Doesn&amp;rsquo;t have a LOUD or GAMER design Camera, speakers, and mic built in  The most attractive of above listed features is the ability to use the Monitor as a docking solution, where I can use a single cable and have all my peripherals be detected alongside it.</description>
     </item>
     
   </channel>
