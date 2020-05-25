@@ -43,7 +43,7 @@ There seems to be no other product with the following feature sets:
  A glossy panel 5k resolution Good color reproduction High DPI A single cable docking solution through Thunderbolt Doesn&rsquo;t have a LOUD or GAMER design Camera, speakers, and mic built in  The most attractive of above listed features is the ability to use the Monitor as a docking solution, where I can use a single cable and have all my peripherals be detected alongside it.">
 <meta itemprop="datePublished" content="2020-05-24T20:46:49-05:00" />
 <meta itemprop="dateModified" content="2020-05-24T20:46:49-05:00" />
-<meta itemprop="wordCount" content="1213">
+<meta itemprop="wordCount" content="1255">
 
 
 
@@ -214,7 +214,7 @@ Everything just works as advertised in full glorious 5k resolution where text is
 <h4 id="windows-10">Windows 10</h4>
 <p>I&rsquo;ve been suckered by some friends to once again start using Windows on my personal machine to play some online games with them. I haven&rsquo;t touched Windows in years and was actually pleasantly surprised.<br>
 Everything worked out of the box after installing the drivers provided by the motherboard OEM. Windows was able to detect the speaker, mic, and additional peripherals on my monitor over Thunderbolt just fine.<br>
-The recommend display scaling to 1.5 looks just fine to my eyes, and realistically I probably wouldn&rsquo;t be able to play any games at decent performance at 5k anyhow.</p>
+The recommended display scaling to 1.5 looks just fine to my eyes, and realistically I probably wouldn&rsquo;t be able to play any games at decent performance at 5k anyhow.</p>
 <h3 id="linux">Linux</h3>
 <p>When I work at home for personal projects I tend to Linux as my primary OS for development. Currently I&rsquo;m running the following:</p>
 <ul>
@@ -225,6 +225,7 @@ The recommend display scaling to 1.5 looks just fine to my eyes, and realistical
 <p>This is where things started to get hairy. I followed the instructions from <a href="https://johnwilger.com/2019/01/27/lg-utlrafine-on-linux-gnome3-gdm3.html">here</a> to have GNOME and GDM detect my monitor and the resolution properly by overriding my X11 and GNOME configuration.</p>
 <p>But I noticed that all my USB peripherals (including the webcam, mic, and speakers built in the display) were not working. Various log outputs were not showing anything useful and attempts to force power on the usb devices didn&rsquo;t seems to address the issue. At this point I scoured the web for others with similar issues but to no avail. Documentation on people attempting to use this monitor on non-Macs is pretty sparse.</p>
 <p>I almost gave up here and was considering returning this monitor but then I realized that my graphics card actually has a USB-C port which is meant for VR headsets. Figured I had nothing to lose and connected my monitor to it and&hellip;.everything worked just like it did in Windows!</p>
+<p>Cool, so I know I can use the USB-C port on my GPU like a normal USB-C port. But i really wanted to take advantage of the Thunderbolt port on my motherboard, hell it was the whole reason why I bought it!</p>
 <p>Upon further investigating, when connecting a USB device though the monitor I get the following log output:</p>
 <pre><code>[  671.141999] thunderbolt 0-1: new device found, vendor=0x1e device=0x1114
 [  671.142001] thunderbolt 0-1: LG Electronics UltraFine 5K
@@ -237,7 +238,6 @@ The recommend display scaling to 1.5 looks just fine to my eyes, and realistical
 [  680.989970] xhci_hcd 0000:09:00.0: Error while assigning device slot ID
 [  680.989974] xhci_hcd 0000:09:00.0: Max number of devices this xHCI host supports is 64.
 [  680.989975] usb usb2-port1: couldn't allocate usb_device
-
 </code></pre><p>Hmm upon digging I found this <a href="http://marc.merlins.org/perso/linux/post_2018-12-20_Getting-Around-USB3-xhci-32-Device-Limit-_Max-number-of-devices-this-xHCI-host-supports-is-32_.html">blog post</a>.</p>
 <p>TLDR: the USB 3.0 spec is borked. To get around this we want to disable USB-3.0 and force USB-2.0.</p>
 <p>So to do that I did the following the instructions <a href="https://www.systutorials.com/how-to-force-a-usb-3-0-port-to-work-in-usb-2-0-mode-in-linux/">here</a>:</p>
