@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on I don&#39;t really know what I&#39;m doing lol</title>
-    <link>https://skang.dev/blog/</link>
+    <link>https://www.skang.dev/blog/</link>
     <description>Recent content in Blogs on I don&#39;t really know what I&#39;m doing lol</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 May 2020 20:46:49 -0500</lastBuildDate>
     
-	<atom:link href="https://skang.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.skang.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LG UltraFine 5k on Linux and Windows</title>
-      <link>https://skang.dev/blog/lg-5k/</link>
+      <link>https://www.skang.dev/blog/lg-5k/</link>
       <pubDate>Sun, 24 May 2020 20:46:49 -0500</pubDate>
       
-      <guid>https://skang.dev/blog/lg-5k/</guid>
+      <guid>https://www.skang.dev/blog/lg-5k/</guid>
       <description>This is yet another post about attempting to get the LG UltraFine 5k working on Linux/Windows.
 TLDR: It works at a 4k resolution over USB-c from my gpu. USB peripherals are not detected on Linux over Thunderbolt.
 Why are you doing this? The LG UltraFine 5k is a really gorgeous monitor that&amp;rsquo;s (unfortunately) a unique product in the market right now.
@@ -25,10 +25,10 @@ There seems to be no other product with the following feature sets:</description
     
     <item>
       <title>My First blog post</title>
-      <link>https://skang.dev/blog/first/</link>
+      <link>https://www.skang.dev/blog/first/</link>
       <pubDate>Sun, 24 May 2020 20:00:34 -0500</pubDate>
       
-      <guid>https://skang.dev/blog/first/</guid>
+      <guid>https://www.skang.dev/blog/first/</guid>
       <description>This is my blog, I hope to post some useful information for other folks hacking at various things here and work on my writing skills.
 &amp;hellip;There&amp;rsquo;s not much here yet, but look forward to some more content!</description>
     </item>
